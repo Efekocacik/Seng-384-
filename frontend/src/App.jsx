@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
 import RegistrationForm from "./pages/RegistrationForm";
 import PeopleListPage from "./pages/PeopleListPage";
 
@@ -11,10 +11,10 @@ function App() {
             <h1 className="logo">Person Management System</h1>
             <ul className="nav-links">
               <li>
-                <Link to="/">Kayıt Formu</Link>
+                <NavLink to="/" end>Kayıt Formu</NavLink>
               </li>
               <li>
-                <Link to="/people">Kişi Listesi</Link>
+                <NavLink to="/people">Kişi Listesi</NavLink>
               </li>
             </ul>
           </nav>

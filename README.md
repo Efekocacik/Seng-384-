@@ -7,6 +7,14 @@ React, Node.js (Express), PostgreSQL ve Docker Compose kullanılarak geliştiril
 - **Veritabanı**: PostgreSQL (`people` tablosu)
 - **Docker Compose**: `db`, `backend`, `frontend` servisleri tek komutla ayağa kalkar.
 
+## Ekran Görüntüleri
+
+| Kayıt Formu | Kişi Listesi | Silme Onayı |
+|-------------|--------------|-------------|
+| ![Kayıt Formu](screenshots/05-kayit-formu.png) | ![Kişi Listesi](screenshots/06-kisi-listesi.png) | ![Silme Onayı](screenshots/08-silme-onayi.png) |
+
+Daha fazla ekran görüntüsü için `screenshots/` klasörüne bakın (Docker logları + frontend arayüzü).
+
 ## Klasör Yapısı
 
 ```text
@@ -14,6 +22,7 @@ project-root/
   docker-compose.yml
   .env.example
   README.md
+  screenshots/
 
   db/
     init.sql
